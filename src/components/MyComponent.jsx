@@ -9,8 +9,17 @@ import PropTypes from 'prop-types';
  * ```
  */
 class MyComponent extends Component {
+  /**
+   * Pues no hacemos nada al click
+   *
+   * @memberof MyComponent
+   */
+  handlerClick() {
+    return null;
+  }
+
   render() {
-    return <div>{this.props.foo}</div>;
+    return <div onClick={this.handlerClick}>{this.props.foo}</div>;
   }
 }
 
