@@ -27,7 +27,11 @@ MyComponent.propTypes = {
   /**
    * Description of prop **foo**
    */
-  foo: PropTypes.string.isRequired
+  foo: PropTypes.string.isRequired,
+  /**
+   * Description of prop **foo**
+   */
+  bar: PropTypes.number
 };
 
 export default MyComponent;

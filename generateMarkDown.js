@@ -84,7 +84,7 @@ function generateMethod(method) {
   return (
     '#### `' +
     method.name +
-    '`' +
+    '` ' +
     method.description +
     '\n' +
     '\n' +

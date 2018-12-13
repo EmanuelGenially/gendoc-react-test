@@ -10,13 +10,20 @@ E.g.:
 
 Methods
 -------
-#### `handlerClick`Pues no hacemos nada al click
+#### `handlerClick` Pues no hacemos nada al click
 
 - `e`: event
 
 
 Props
 -----
+
+### `bar`
+
+Description of prop **foo**
+
+type: `number`
+
 
 ### `foo` (required)
 
