@@ -12,11 +12,7 @@ Methods
 -------
 #### `handlerClick`Pues no hacemos nada al click
 
-@param e: event
-
-#### `e`: event
-
-
+- `e`: event
 
 
 Props

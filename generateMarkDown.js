@@ -63,13 +63,11 @@ function generateProp(propName, prop) {
 
 function generateParam(param) {
   return (
-    '#### `' +
+    '- `' +
     param.name +
     '`' +
     param.description +
-    '\n' +
-    '\n' +
-    (param.type ? param.type + '\n\n' : '') +
+    (param.type ? '*' + param.type + '*' : '') +
     '\n'
   );
 }
@@ -87,7 +85,7 @@ function generateMethod(method) {
     '#### `' +
     method.name +
     '`' +
-    method.docblock +
+    method.description +
     '\n' +
     '\n' +
     generateParams(method.params) +
