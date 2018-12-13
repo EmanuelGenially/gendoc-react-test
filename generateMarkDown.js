@@ -48,7 +48,7 @@ function generatePropDefaultValue(value) {
 
 function generateProp(propName, prop) {
   return (
-    '### `' +
+    '#### `' +
     propName +
     '`' +
     (prop.required ? ' (required)' : '') +
