@@ -23,14 +23,14 @@ Methods
 Props
 -----
 
-### `bar`
+#### `bar`
 
 Description of prop **bar**
 
 type: `number`
 
 
-### `foo` (required)
+#### `foo` (required)
 
 Description of prop **foo**
 

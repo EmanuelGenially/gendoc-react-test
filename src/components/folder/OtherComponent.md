@@ -14,7 +14,7 @@ Methods
 Props
 -----
 
-### `foo`
+#### `foo`
 
 Description of prop **foo**
 
