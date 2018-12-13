@@ -14,11 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "doc": "react-doc-generator ./src/components -o DOCUMENTATION.md",
-    "originaldoc": "react-docgen ./src/components/* -o doc.json",
-    "simpledoc": "simple-react-docgen ./src/components/* -o DOC.md",
-    "rdrdoc": "rdr src/components/ --readmeFile ./RDR.md",
-    "shdoc": "react-docgen ./src/components/* | ./buildDocs.sh"
+    "doc": "react-docgen ./src/components/* | ./buildDocs.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
