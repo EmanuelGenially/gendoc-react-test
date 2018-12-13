@@ -6,7 +6,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "simple-react-docgen": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +15,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "doc": "react-doc-generator ./src/components -o DOCUMENTATION.md",
-    "originaldoc": "react-docgen ./src/components -o ORIGINAL_DOCUMENTATION.md"
+    "originaldoc": "react-docgen ./src/components/* -o doc.json",
+    "simpledoc": "simple-react-docgen ./src/components/* -o DOC.md",
+    "rdrdoc": "rdr src/components/ --readmeFile ./RDR.md",
+    "shdoc": "react-docgen ./src/components/* | ./buildDocs.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,6 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-doc-generator": "^1.2.5"
+    "react-doc-generator": "^1.2.5",
+    "react-docgen-readme": "0.0.1"
   }
 }

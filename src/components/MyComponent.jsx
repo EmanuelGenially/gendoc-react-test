@@ -12,9 +12,9 @@ class MyComponent extends Component {
   /**
    * Pues no hacemos nada al click
    *
-   * @memberof MyComponent
+   * @param e: event
    */
-  handlerClick() {
+  handlerClick(e) {
     return null;
   }
 

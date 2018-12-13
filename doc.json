@@ -1,0 +1,35 @@
+{
+  "./src/components/MyComponent.jsx": {
+    "description": "General component description.\nYou can even use the native Markdown here.\nE.g.:\n```html\n<MyComponent foo={\"hello\"} />\n```",
+    "displayName": "MyComponent",
+    "methods": [
+      {
+        "name": "handlerClick",
+        "docblock": "Pues no hacemos nada al click\n\n@param e: event",
+        "modifiers": [],
+        "params": [{ "name": "e", "description": ": event", "type": null }],
+        "returns": null,
+        "description": "Pues no hacemos nada al click"
+      }
+    ],
+    "props": {
+      "foo": {
+        "type": { "name": "string" },
+        "required": true,
+        "description": "Description of prop **foo**"
+      }
+    }
+  },
+  "src/components/folder/OtherComponent.jsx": {
+    "description": "General component description.\nYou can even use the native Markdown here.\nE.g.:\n```html\n<MyComponent foo={541} />\n```",
+    "displayName": "OtherComponent",
+    "methods": [],
+    "props": {
+      "foo": {
+        "type": { "name": "number" },
+        "required": false,
+        "description": "Description of prop **foo**"
+      }
+    }
+  }
+}
