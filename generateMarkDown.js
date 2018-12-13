@@ -96,7 +96,7 @@ function generateMethod(method) {
 }
 
 function generateMethods(methods) {
-  var result = '';
+  var result = 'Methods' + '\n' + stringOfLength('-', 'Methods'.length) + '\n';
   methods.forEach(method => {
     result += generateMethod(method);
   });
@@ -105,7 +105,6 @@ function generateMethods(methods) {
 
 function generateProps(props) {
   const title = 'Props';
-  console.log(props);
   return (
     title +
     '\n' +

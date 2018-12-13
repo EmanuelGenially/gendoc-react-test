@@ -8,6 +8,8 @@ E.g.:
 <MyComponent foo={541} />
 ```
 
+Methods
+-------
 
 Props
 -----

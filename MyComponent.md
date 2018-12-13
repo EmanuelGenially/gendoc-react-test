@@ -8,6 +8,8 @@ E.g.:
 <MyComponent foo={"hello"} />
 ```
 
+Methods
+-------
 #### `handlerClick`Pues no hacemos nada al click
 
 @param e: event
