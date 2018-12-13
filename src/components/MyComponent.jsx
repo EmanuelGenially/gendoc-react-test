@@ -10,6 +10,16 @@ import PropTypes from 'prop-types';
  */
 class MyComponent extends Component {
   /**
+   * Hace un console.log
+   *
+   * @param e: event
+   * @param description: texto plano a mostrar
+   */
+  consoleComponent(e, description) {
+    console.log(description, e);
+  }
+
+  /**
    * Pues no hacemos nada al click
    *
    * @param e: event
@@ -29,7 +39,7 @@ MyComponent.propTypes = {
    */
   foo: PropTypes.string.isRequired,
   /**
-   * Description of prop **foo**
+   * Description of prop **bar**
    */
   bar: PropTypes.number
 };
